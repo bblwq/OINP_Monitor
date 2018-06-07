@@ -1,5 +1,5 @@
 # OINP-Monitor
-A python script that checks for OINP update every 20s and notify you by sending a text message with Twilio
+A python script that checks for OINP update every 20s and notify you by sending a text message with Twilio.
 
 Running Environment: Raspberry Pi 3 Model B, Raspbian Linux 4.9, Python 2.7.13
 
