@@ -18,6 +18,6 @@ Other Utility Needed:
 How to Implement:
 1. Install Python 2.7 and all libraries/utilities needed
 1. Put `OINP.py` and `OINP.pickle` in a folder of your choice.
-1. Replace #'s in `OINP.py` with real values (To protect my privacy, I masked my Twilio credentials, phone number, and file directories).
-1. Schedule a cron task to run `OINP.py` every 10 mins: `*/10 * * * * python /home/pi/python_scripts/OINP.py`
+1. Replace all `#` with real values (For privacy reason, I masked my Twilio credentials, phone number and file directories).
+1. Schedule a cron task to run `OINP.py` every 10 mins: `*/10 * * * * python ########/OINP.py`
 1. Schedule a cron task to reboot the computer everyday at midnight to prevent crashes: `0 0 * * * sudo reboot`
