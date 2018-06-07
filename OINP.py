@@ -49,8 +49,8 @@ for i in range(26):
 		if archieve['status'] != 400:
 			client = Client(account_sid, auth_token)
 			message = client.messages.create(
-			to="+16476762052",
-			from_="+13069006383",
+			to="+1##########",
+			from_="+1##########",
 			body="OINP Script Terminated! (" + str(ex) + ")")
 			archieve['status'] = 400
 		logger.warning(str(ex))
