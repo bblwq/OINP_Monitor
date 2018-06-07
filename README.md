@@ -9,5 +9,5 @@ Python Libraries Needed:
 * logging
 * twilio
 
-Other Unitily Needed:
-* cron ()
+Other Utility Needed:
+* cron
