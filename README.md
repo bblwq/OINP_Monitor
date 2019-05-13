@@ -20,4 +20,5 @@ How to Implement:
 1. Put `OINP.py` and `OINP.pickle` in a folder of your choice.
 1. Replace all `#` with real values (For privacy reason, I masked my Twilio credentials, phone number and file directories).
 1. Schedule a cron task to run `OINP.py` every 10 mins: `*/10 * * * * python ########/OINP.py`
-1. Schedule a cron task to reboot the computer everyday at midnight to prevent crashes: `0 0 * * * sudo reboot`
+1. Schedule a cron task to reboot the computer everyday at midnight to prevent crashes: `0 0 * * 0 sudo reboot`
+1. Schedule a cron task to upgrade the computer everyday at 12:01 AM: `1 0 * * * sudo apt-get upgrade && sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove`
